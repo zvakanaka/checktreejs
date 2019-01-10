@@ -1,4 +1,3 @@
-<script>
 (function() {
   var supportsShadowDom = !!HTMLElement.prototype.attachShadow;
   var css = `.checktree-group{padding-left:20px;}
@@ -390,4 +389,3 @@
 
   window.customElements.define('check-tree', CheckTree);
 })();
-</script>
